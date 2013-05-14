@@ -50,4 +50,7 @@ end
 group :test do
 	gem 'capybara', '1.1.2'
 	gem 'factory_girl', '2.6.4'
-  gem 'simplecov', :require => false end
+  gem 'simplecov', :require => false 
+end
+
+gem 'devise', '2.1.0'
