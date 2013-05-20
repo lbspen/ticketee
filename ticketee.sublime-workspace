@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"admin",
+				"admin_users_path"
+			],
+			[
+				"end",
+				"end	end (ERB)"
+			],
+			[
 				"project",
 				"project_path"
 			],
@@ -56,53 +64,47 @@
 	"buffers":
 	[
 		{
-			"file": "spec/integration/hidden_links_spec.rb",
+			"file": "app/controllers/admin/users_controller.rb",
 			"settings":
 			{
-				"buffer_size": 1486,
+				"buffer_size": 1257,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/projects/index.html.erb",
+			"file": "spec/integration/admin/deleting_users_spec.rb",
 			"settings":
 			{
-				"buffer_size": 205,
+				"buffer_size": 564,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/projects/show.html.erb",
+			"file": "app/views/admin/users/show.html.erb",
 			"settings":
 			{
-				"buffer_size": 542,
+				"buffer_size": 212,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Package Control Messages\n========================\n\nRuby on Rails snippets:\n----------------------\n\n  This package replaces the default Sublime Rails snippets.\n  * Additional setup steps are required. *\n  Please visit https://github.com/tadast/sublime-rails-snippets#sublime-text-2-rails-snippets\n  for instructions\n",
-			"settings":
-			{
-				"buffer_size": 315,
-				"line_ending": "Unix",
-				"name": "Package Control Messages",
-				"scratch": true
 			}
 		}
 	],
 	"build_system": "Packages/Ruby/Ruby.sublime-build",
 	"command_palette":
 	{
-		"height": 264.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
 				"rein",
 				"Indentation: Reindent Lines"
+			],
+			[
+				"rails",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
 			],
 			[
 				"install",
@@ -169,7 +171,7 @@
 				"Project: Add Folder"
 			]
 		],
-		"width": 449.0
+		"width": 530.0
 	},
 	"console":
 	{
@@ -186,10 +188,32 @@
 	},
 	"file_history":
 	[
+		"/home/lbs/src/ticketee/app/views/admin/users/index.html.erb",
+		"/home/lbs/src/ticketee/spec/integration/admin/creating_users_spec.rb",
+		"/home/lbs/src/ticketee/app/views/admin/users/show.html.erb",
+		"/home/lbs/src/ticketee/spec/integration/admin/editing_users_spec.rb",
+		"/home/lbs/src/ticketee/app/views/admin/users/edit.html.erb",
+		"/home/lbs/src/ticketee/app/views/admin/users/_form.html.erb",
+		"/home/lbs/src/ticketee/app/models/user.rb",
+		"/home/lbs/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/lbs/src/ticketee/app/views/admin/base/index.html.erb",
+		"/home/lbs/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/lbs/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/lbs/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/lbs/src/ticketee/app/views/admin/users/new.html.erb",
+		"/home/lbs/src/ticketee/app/controllers/admin/base_controller.rb",
+		"/home/lbs/src/ticketee/app/controllers/admin/users_controller.rb",
+		"/home/lbs/src/ticketee/app/views/layouts/application.html.erb",
+		"/home/lbs/src/ticketee/config/routes.rb",
+		"/home/lbs/src/ticketee/app/views/projects/index.html.erb",
+		"/home/lbs/src/ticketee/spec/controllers/admin/users_controller_spec.rb",
+		"/home/lbs/src/ticketee/app/controllers/projects_controller.rb",
+		"/home/lbs/src/ticketee/app/controllers/application_controller.rb",
+		"/home/lbs/src/ticketee/spec/integration/hidden_links_spec.rb",
+		"/home/lbs/src/ticketee/app/views/projects/show.html.erb",
 		"/home/lbs/.config/sublime-text-2/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
 		"/home/lbs/src/ticketee/app/helpers/application_helper.rb",
 		"/home/lbs/src/ticketee/spec/support/capybara_helpers.rb",
-		"/home/lbs/src/ticketee/app/controllers/projects_controller.rb",
 		"/home/lbs/src/ticketee/spec/controllers/projects_controller_spec.rb",
 		"/home/lbs/src/ticketee/spec/integration/editing_projects_spec.rb",
 		"/home/lbs/src/ticketee/spec/integration/deleting_projects_spec.rb",
@@ -206,10 +230,8 @@
 		"/home/lbs/src/ticketee/spec/integration/viewing_tickets_spec.rb",
 		"/home/lbs/src/ticketee/app/models/ticket.rb",
 		"/home/lbs/src/ticketee/app/controllers/tickets_controller.rb",
-		"/home/lbs/src/ticketee/app/views/layouts/application.html.erb",
 		"/home/lbs/src/ticketee/db/migrate/20130514222700_add_user_id_to_tickets.rb",
 		"/home/lbs/src/ticketee/Gemfile",
-		"/home/lbs/src/ticketee/app/models/user.rb",
 		"/home/lbs/src/ticketee/spec/integration/signing_up_spec.rb",
 		"/home/lbs/src/ticketee/db/migrate/20130514205525_add_confirmable_fields_to_users.rb",
 		"/home/lbs/.config/sublime-text-2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
@@ -217,27 +239,19 @@
 		"/home/lbs/src/ticketee/app/models/project.rb",
 		"/home/lbs/src/ticketee/app/views/tickets/edit.html.erb",
 		"/home/lbs/src/ticketee/app/views/tickets/_form.html.erb",
-		"/home/lbs/src/ticketee/app/views/projects/show.html.erb",
 		"/home/lbs/src/ticketee/config/initializers/devise.rb",
 		"/home/lbs/src/ticketee/config/environments/development.rb",
 		"/home/lbs/src/ticketee/config/environments/test.rb",
 		"/home/lbs/.zshrc",
 		"/home/lbs/src/ticketee/.gitignore",
-		"/home/lbs/src/ticketee/app/views/projects/index.html.erb",
 		"/home/lbs/src/ticketee/app/views/tickets/new.html.erb",
 		"/home/lbs/src/ticketee/spec/integration/viewing_projects_spec.rb",
 		"/home/lbs/src/ticketee/spec/support/factories/ticket_factory.rb",
-		"/home/lbs/src/ticketee/config/routes.rb",
-		"/home/lbs/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
-		"/home/lbs/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 		"/home/lbs/src/ticketee/config/environments/production.rb",
-		"/home/lbs/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
 		"/home/lbs/src/ticketee/app/views/projects/edit.html.erb",
 		"/home/lbs/src/ticketee/app/views/projects/_form.html.erb",
 		"/home/lbs/src/ticketee/app/views/projects/new.html.erb",
 		"/home/lbs/src/ticketee/spec/support/factories/project_factory.rb",
-		"/home/lbs/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
-		"/home/lbs/src/ticketee/app/controllers/application_controller.rb",
 		"/home/lbs/src/ticketee/app/assets/stylesheets/application.css",
 		"/home/lbs/src/ticketee/bin/rspec",
 		"/home/lbs/.config/sublime-text-2/Packages/RubyTest/RubyTest.sublime-settings",
@@ -279,6 +293,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ApplicationController",
 			"ruby",
 			"destr",
 			"App",
@@ -302,23 +317,139 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "spec/integration/hidden_links_spec.rb",
+					"file": "app/controllers/admin/users_controller.rb",
 					"settings":
 					{
-						"buffer_size": 1486,
+						"buffer_size": 1257,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1476,
-								1476
+								1144,
+								1144
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "spec/integration/admin/deleting_users_spec.rb",
+					"settings":
+					{
+						"buffer_size": 564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								560,
+								560
 							]
 						],
 						"settings":
@@ -416,120 +547,6 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 79.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/views/projects/index.html.erb",
-					"settings":
-					{
-						"buffer_size": 205,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								80,
-								80
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -537,18 +554,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/views/projects/show.html.erb",
+					"file": "app/views/admin/users/show.html.erb",
 					"settings":
 					{
-						"buffer_size": 542,
+						"buffer_size": 212,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								217,
-								217
+								208,
+								208
 							]
 						],
 						"settings":
@@ -642,32 +659,6 @@
 							},
 							"sublimelinter_wrap_find": true,
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"settings":
-					{
-						"buffer_size": 315,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								295,
-								295
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -723,6 +714,74 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"avaus",
+				"app/views/admin/users/show.html.erb"
+			],
+			[
+				"avau",
+				"app/views/admin/users/index.html.erb"
+			],
+			[
+				"amu",
+				"app/models/user.rb"
+			],
+			[
+				"avaui",
+				"app/views/admin/users/index.html.erb"
+			],
+			[
+				"avauf",
+				"app/views/admin/users/_form.html.erb"
+			],
+			[
+				"adminuser",
+				"app/controllers/admin/users_controller.rb"
+			],
+			[
+				"avauin",
+				"app/views/admin/users/index.html.erb"
+			],
+			[
+				"apctauserc",
+				"app/controllers/admin/users_controller.rb"
+			],
+			[
+				"actab",
+				"app/controllers/admin/base_controller.rb"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"appvlay",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"ind",
+				"app/views/projects/index.html.erb"
+			],
+			[
+				"apctadu",
+				"app/controllers/admin/users_controller.rb"
+			],
+			[
+				"appctapp",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"proj",
+				"app/controllers/projects_controller.rb"
+			],
+			[
+				"speccntad",
+				"spec/controllers/admin/users_controller_spec.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
 			[
 				"projeshow",
 				"app/views/projects/show.html.erb"
@@ -936,10 +995,6 @@
 				"app/views/projects/show.html.erb"
 			],
 			[
-				"ind",
-				"app/views/projects/index.html.erb"
-			],
-			[
 				"controllproj",
 				"spec/controllers/projects_controller_spec.rb"
 			],
@@ -962,10 +1017,6 @@
 			[
 				"project",
 				"app/controllers/projects_controller.rb"
-			],
-			[
-				"rou",
-				"config/routes.rb"
 			],
 			[
 				"app/vpn",
