@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 feature "Editing tickets" do 
-  let!(:project) { Factory(:project)}
+  let!(:project) { Factory(:project) }
   let!(:user) { Factory(:confirmed_user) }
   let!(:ticket) do
     ticket = Factory(:ticket, :project => project)

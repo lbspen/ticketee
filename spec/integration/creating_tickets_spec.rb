@@ -5,13 +5,12 @@ feature "Creating Tickets" do
     project = Factory(:project, :name => "Internet Explorer")
     user = Factory(:confirmed_user, :email => "ticketee@example.com")
     define_permission!(user, "view", project)
+    define_permission!(user, "create tickets", project)
     sign_in_as!(user)
-
+    
     visit '/'
     click_link "Internet Explorer"
     click_link "New Ticket"
-
-    within("h2") { page.should have_content("New Ticket") }
   end
 
   scenario "Creating a ticket" do
