@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"timeslot",
+				"timeslot"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
 				"click",
 				"click_link"
 			],
@@ -84,66 +96,84 @@
 	"buffers":
 	[
 		{
-			"file": "spec/integration/admin/assigning_permissions_spec.rb",
+			"file": "/home/lbs/src/studio_schedule/studio_schedule.TODO",
 			"settings":
 			{
-				"buffer_size": 1866,
+				"buffer_size": 685,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/admin/users/show.html.erb",
+			"file": "/home/lbs/src/studio_schedule/spec/integration/deleting_timeslots_spec.rb",
 			"settings":
 			{
-				"buffer_size": 281,
+				"buffer_size": 356,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/admin/permissions/index.html.erb",
+			"file": "/home/lbs/src/studio_schedule/app/controllers/timeslots_controller.rb",
 			"settings":
 			{
-				"buffer_size": 807,
+				"buffer_size": 861,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "spec/support/authorization_helpers.rb",
+			"file": "/home/lbs/src/studio_schedule/app/views/timeslots/_form.html.erb",
 			"settings":
 			{
-				"buffer_size": 335,
+				"buffer_size": 1206,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/layouts/application.html.erb",
+			"file": "/home/lbs/src/studio_schedule/app/views/timeslots/_timeslots.html.erb",
 			"settings":
 			{
-				"buffer_size": 722,
+				"buffer_size": 956,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/helpers/admin/permissions_helper.rb",
+			"file": "/home/lbs/src/studio_schedule/app/views/timeslots/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 223,
+				"buffer_size": 99,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "spec/integration/seeds_spec.rb",
+			"file": "/home/lbs/src/studio_schedule/spec/integration/creating_timeslots_spec.rb",
 			"settings":
 			{
-				"buffer_size": 239,
+				"buffer_size": 1015,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "db/seeds.rb",
+			"contents": "Searching 239 files for \"select_date\" (regex, case sensitive)\n\n/home/lbs/src/studio_schedule/spec/spec_helper.rb:\n   41  end\n   42  \n   43: def select_date(date, options = {})\n   44    field = options[:from]\n   45    base_id = find(:xpath, \".//label[contains(.,'#{field}')]\")[:for]\n\n/home/lbs/src/studio_schedule/spec/integration/creating_timeslots_spec.rb:\n    9     \n   10    scenario 'Can create a Timeslot' do\n   11:     select_date(\"2013,December,7\", :from => \"Recording session date\") \n   12      select_time(\"02 PM\", \"00\", :from => \"Start time\")\n   13      select_time(\"04 PM\", \"30\", :from => \"End time\")\n   ..\n   21  \n   22    scenario \"can not create a timeslot in the past\" do\n   23:     select_date(\"2012,December,7\", :from => \"Recording session date\") \n   24      select_time(\"02 PM\", \"00\", :from => \"Start time\")\n   25      select_time(\"04 PM\", \"30\", :from => \"End time\")\n\n/home/lbs/src/studio_schedule/spec/integration/editing_timeslots_spec.rb:\n    6      visit \"/\"\n    7      click_link \"Edit\"\n    8:     select_date(\"2014,January,22\", :from => \"Recording session date\") \n    9      select_time(\"03 AM\", \"00\", :from => \"Start time\")\n   10      select_time(\"04 PM\", \"45\", :from => \"End time\")\n\n4 matches across 3 files\n",
 			"settings":
 			{
-				"buffer_size": 515,
+				"buffer_size": 1234,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/home/lbs/src/studio_schedule/app/models/timeslot.rb",
+			"settings":
+			{
+				"buffer_size": 377,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/lbs/src/studio_schedule/app/assets/stylesheets/foundation_and_overrides.scss",
+			"settings":
+			{
+				"buffer_size": 31835,
 				"line_ending": "Unix"
 			}
 		}
@@ -159,6 +189,46 @@
 				"Indentation: Reindent Lines"
 			],
 			[
+				"parti",
+				"Rails Partial: Create Partial from Text"
+			],
+			[
+				"tas",
+				"Tasks: New document"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"gener",
+				"RubyTest: Generate Rails Model"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
 				"re",
 				"Indentation: Reindent Lines"
 			],
@@ -171,16 +241,8 @@
 				"Set Syntax: HTML (Rails)"
 			],
 			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
 				"install",
 				"Package Control: Install Package"
-			],
-			[
-				"reind",
-				"Indentation: Reindent Lines"
 			],
 			[
 				"show",
@@ -189,10 +251,6 @@
 			[
 				"lint",
 				"SublimeLint: Show All Errors"
-			],
-			[
-				"brow",
-				"Preferences: Browse Packages"
 			],
 			[
 				"close",
@@ -235,7 +293,7 @@
 				"Project: Add Folder"
 			]
 		],
-		"width": 530.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -252,6 +310,39 @@
 	},
 	"file_history":
 	[
+		"/home/lbs/src/studio_schedule/Gemfile",
+		"/home/lbs/src/studio_schedule/spec/integration/editing_timeslots_spec.rb",
+		"/home/lbs/src/studio_schedule/spec/integration/creating_timeslots_spec.rb",
+		"/home/lbs/src/studio_schedule/app/controllers/timeslots_controller.rb",
+		"/home/lbs/src/studio_schedule/app/assets/stylesheets/foundation_and_overrides.scss",
+		"/home/lbs/src/studio_schedule/spec/integration/deleting_timeslots_spec.rb",
+		"/home/lbs/src/studio_schedule/spec/integration/viewing_timeslots_spec.rb",
+		"/home/lbs/src/studio_schedule/app/views/timeslots/_timeslots.html.erb",
+		"/home/lbs/src/studio_schedule/app/views/timeslots/index.html.erb",
+		"/home/lbs/src/studio_schedule/app/views/timeslots/show.html.erb",
+		"/home/lbs/src/studio_schedule/Rakefile",
+		"/home/lbs/src/studio_schedule/app/views/timeslots/_form.html.erb",
+		"/home/lbs/src/studio_schedule/app/views/timeslots/new.html.erb",
+		"/home/lbs/src/studio_schedule/app/views/timeslots/edit.html.erb",
+		"/home/lbs/src/studio_schedule/coverage/index.html",
+		"/home/lbs/src/studio_schedule/spec/support/factories/timeslot_factory.rb",
+		"/home/lbs/src/studio_schedule/config/application.rb",
+		"/home/lbs/src/studio_schedule/app/models/timeslot.rb",
+		"/home/lbs/src/studio_schedule/studio_schedule.TODO",
+		"/home/lbs/src/studio_schedule/.gitignore",
+		"/home/lbs/src/studio_schedule/spec/spec_helper.rb",
+		"/home/lbs/src/studio_schedule/app/views/layouts/application.html.erb",
+		"/home/lbs/src/studio_schedule/app/assets/stylesheets/custom.css",
+		"/home/lbs/src/studio_schedule/app/assets/stylesheets/application.css",
+		"/home/lbs/src/studio_schedule/app/assets/stylesheets/colors.scss",
+		"/home/lbs/src/studio_schedule/bin/scss",
+		"/home/lbs/src/studio_schedule/app/views/layouts/application2.html.erb",
+		"/home/lbs/src/studio_schedule/app/views/timeslots/show.index.html",
+		"/home/lbs/src/studio_schedule/config/routes.rb",
+		"/home/lbs/src/studio_schedule/spec/helpers/select_date_helper.rb",
+		"/home/lbs/src/studio_schedule/select_date_helper.rb",
+		"/home/lbs/src/studio_schedule/db/migrate/20130529183126_create_timeslots.rb",
+		"/home/lbs/src/studio_schedule/db/schema.rb",
 		"/home/lbs/src/ticketee/app/controllers/admin/permissions_controller.rb",
 		"/home/lbs/src/ticketee/app/helpers/admin/permissions_helper.rb",
 		"/home/lbs/src/ticketee/config/routes.rb",
@@ -346,9 +437,7 @@
 		"/home/lbs/Src/things_i_bought/config/routes.rb",
 		"/home/lbs/Src/things_i_bought/app/views/purchases/edit.html.erb",
 		"/opt/Sublime Text 2/sublime_plugin.py",
-		"/home/lbs/.config/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
-		"/usr/share/applications/sublime.desktop",
-		"/usr/share/applications/defaults.list"
+		"/home/lbs/.config/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt"
 	],
 	"find":
 	{
@@ -356,18 +445,68 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			"*.rb, ,/home/lbs/src/ticketee,/home/lbs/src/bookings,*.erb,/home/lbs/src/password_tracker,<open folders>",
+			"*.rb, ,/home/lbs/src/ticketee,/home/lbs/src/bookings,*.erb,/home/lbs/src/password_tracker",
+			"*.rb, ,/home/lbs/src/ticketee,/home/lbs/src/bookings,*.erb,/home/lbs/src/password_tracker, *.*",
+			"*.rb, ,/home/lbs/src/ticketee,/home/lbs/src/bookings,*.erb,/home/lbs/src/password_tracker *.*",
+			"*.rb, ,/home/lbs/src/ticketee,/home/lbs/src/bookings,*.erb,/home/lbs/src/password_tracker *.",
+			"*.rb, ,/home/lbs/src/ticketee,/home/lbs/src/bookings,*.erb,/home/lbs/src/password_tracker",
+			"*.rb, ,/home/lbs/src/ticketee,/home/lbs/src/bookings,*.erb",
 			"*.rb",
 			""
 		]
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"select_date",
+			"alert",
+			"4e",
+			"4e	",
+			"validates",
+			"Resource",
+			"def destroy",
+			"find_link",
+			"Resource",
+			"resource",
+			"alert.*primary",
+			"4e",
+			"alert",
+			"panel",
+			"update",
+			"link_to",
+			"find_link",
+			"Resource",
+			"resource",
+			"panel",
+			"callout",
+			"panel",
+			"panel	",
+			"panel",
+			"config.active_record",
+			"strftime",
+			"FactoryGirl",
+			"resource",
+			"f5",
+			"display",
+			"block",
+			"inline",
+			"block	",
+			"select",
+			"primary",
+			"link*.color",
+			"color",
+			"grid",
+			"background",
+			"color",
+			"jquery",
+			"find_link",
+			"label",
 			"context",
 			"polymorphic",
 			"\n    ",
@@ -381,7 +520,7 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 			"sublime.desktop"
@@ -400,18 +539,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "spec/integration/admin/assigning_permissions_spec.rb",
+					"file": "/home/lbs/src/studio_schedule/studio_schedule.TODO",
 					"settings":
 					{
-						"buffer_size": 1866,
+						"buffer_size": 685,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1862,
-								1862
+								145,
+								145
 							]
 						],
 						"settings":
@@ -505,30 +644,28 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/RSpec/RSpec.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 244.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/views/admin/users/show.html.erb",
+					"file": "/home/lbs/src/studio_schedule/spec/integration/deleting_timeslots_spec.rb",
 					"settings":
 					{
-						"buffer_size": 281,
+						"buffer_size": 356,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								275,
-								275
+								210,
+								210
 							]
 						],
 						"settings":
@@ -622,7 +759,7 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/RSpec/RSpec.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -632,18 +769,135 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/views/admin/permissions/index.html.erb",
+					"file": "/home/lbs/src/studio_schedule/app/controllers/timeslots_controller.rb",
 					"settings":
 					{
-						"buffer_size": 807,
+						"buffer_size": 861,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								426,
-								426
+								465,
+								465
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/lbs/src/studio_schedule/app/views/timeslots/_form.html.erb",
+					"settings":
+					{
+						"buffer_size": 1206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64,
+								64
 							]
 						],
 						"settings":
@@ -748,134 +1002,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "spec/support/authorization_helpers.rb",
-					"settings":
-					{
-						"buffer_size": 335,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								270,
-								270
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 4,
-					"file": "app/views/layouts/application.html.erb",
+					"file": "/home/lbs/src/studio_schedule/app/views/timeslots/_timeslots.html.erb",
 					"settings":
 					{
-						"buffer_size": 722,
+						"buffer_size": 956,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								475,
-								475
+								398,
+								398
 							]
 						],
 						"settings":
@@ -981,18 +1120,18 @@
 				},
 				{
 					"buffer": 5,
-					"file": "app/helpers/admin/permissions_helper.rb",
+					"file": "/home/lbs/src/studio_schedule/app/views/timeslots/index.html.erb",
 					"settings":
 					{
-						"buffer_size": 223,
+						"buffer_size": 99,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								205,
-								205
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1086,7 +1225,7 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1096,18 +1235,18 @@
 				},
 				{
 					"buffer": 6,
-					"file": "spec/integration/seeds_spec.rb",
+					"file": "/home/lbs/src/studio_schedule/spec/integration/creating_timeslots_spec.rb",
 					"settings":
 					{
-						"buffer_size": 239,
+						"buffer_size": 1015,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								239,
-								239
+								956,
+								956
 							]
 						],
 						"settings":
@@ -1201,7 +1340,9 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/RSpec/RSpec.tmLanguage"
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1211,18 +1352,74 @@
 				},
 				{
 					"buffer": 7,
-					"file": "db/seeds.rb",
 					"settings":
 					{
-						"buffer_size": 515,
+						"buffer_size": 1234,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										144,
+										155
+									],
+									[
+										425,
+										436
+									],
+									[
+										698,
+										709
+									],
+									[
+										1021,
+										1032
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								559,
+								559
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/home/lbs/src/studio_schedule/app/models/timeslot.rb",
+					"settings":
+					{
+						"buffer_size": 377,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								513,
-								513
+								105,
+								105
 							]
 						],
 						"settings":
@@ -1316,10 +1513,127 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/home/lbs/src/studio_schedule/app/assets/stylesheets/foundation_and_overrides.scss",
+					"settings":
+					{
+						"buffer_size": 31835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31830,
+								31830
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 17304.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1360,7 +1674,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 124.0
+		"height": 322.0
 	},
 	"replace":
 	{
@@ -1372,6 +1686,230 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"foun",
+				"app/assets/stylesheets/foundation_and_overrides.scss"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"time",
+				"app/models/timeslot.rb"
+			],
+			[
+				"crea",
+				"spec/integration/creating_timeslots_spec.rb"
+			],
+			[
+				"",
+				"app/views/timeslots/_timeslots.html.erb"
+			],
+			[
+				"index",
+				"app/views/timeslots/index.html.erb"
+			],
+			[
+				"_time",
+				"app/views/timeslots/_timeslots.html.erb"
+			],
+			[
+				"form",
+				"app/views/timeslots/_form.html.erb"
+			],
+			[
+				"timecont",
+				"app/controllers/timeslots_controller.rb"
+			],
+			[
+				"del",
+				"spec/integration/deleting_timeslots_spec.rb"
+			],
+			[
+				"rei",
+				"Rakefile"
+			],
+			[
+				"view",
+				"spec/integration/viewing_timeslots_spec.rb"
+			],
+			[
+				"foundov",
+				"app/assets/stylesheets/foundation_and_overrides.scss"
+			],
+			[
+				"creat",
+				"spec/integration/creating_timeslots_spec.rb"
+			],
+			[
+				"editing",
+				"spec/integration/editing_timeslots_spec.rb"
+			],
+			[
+				"timeslcon",
+				"app/controllers/timeslots_controller.rb"
+			],
+			[
+				"inde",
+				"app/views/timeslots/index.html.erb"
+			],
+			[
+				"new.h",
+				"app/views/timeslots/new.html.erb"
+			],
+			[
+				"fou",
+				"app/assets/stylesheets/foundation_and_overrides.scss"
+			],
+			[
+				"inderb",
+				"app/views/timeslots/index.html.erb"
+			],
+			[
+				"indexh",
+				"coverage/index.html"
+			],
+			[
+				"timecon",
+				"app/controllers/timeslots_controller.rb"
+			],
+			[
+				"configapp",
+				"config/application.rb"
+			],
+			[
+				"fac",
+				"spec/support/factories/timeslot_factory.rb"
+			],
+			[
+				"to",
+				"studio_schedule.TODO"
+			],
+			[
+				"show",
+				"app/views/timeslots/show.html.erb"
+			],
+			[
+				"timeslf",
+				"spec/support/factories/timeslot_factory.rb"
+			],
+			[
+				"fact",
+				"spec/support/factories/timeslot_factory.rb"
+			],
+			[
+				"timeslcont",
+				"app/controllers/timeslots_controller.rb"
+			],
+			[
+				"inher",
+				"app/views/timeslots/index.html.erb"
+			],
+			[
+				"in",
+				"coverage/index.html"
+			],
+			[
+				"new",
+				"app/views/timeslots/new.html.erb"
+			],
+			[
+				"timeslot_f",
+				"spec/support/factories/timeslot_factory.rb"
+			],
+			[
+				"n",
+				"app/views/timeslots/new.html.erb"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"applicht",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"creatin",
+				"spec/integration/creating_timeslots_spec.rb"
+			],
+			[
+				"spe",
+				"spec/spec_helper.rb"
+			],
+			[
+				"sass",
+				"app/assets/stylesheets/foundation_and_overrides.scss"
+			],
+			[
+				"scss",
+				"bin/scss"
+			],
+			[
+				"css",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"application.css",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"found",
+				"app/assets/stylesheets/foundation_and_overrides.scss"
+			],
+			[
+				"app2",
+				"app/views/layouts/application2.html.erb"
+			],
+			[
+				"vla",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"appht",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"timeslotct",
+				"app/controllers/timeslots_controller.rb"
+			],
+			[
+				"timesl",
+				"app/models/timeslot.rb"
+			],
+			[
+				"spec",
+				"spec/spec_helper.rb"
+			],
+			[
+				"mig",
+				"db/migrate/20130529183126_create_timeslots.rb"
+			],
+			[
+				"schema",
+				"db/schema.rb"
+			],
+			[
+				"inder",
+				"app/views/timeslots/index.html.erb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"tc",
+				"app/controllers/timeslots_controller.rb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"g",
+				"Gemfile"
+			],
 			[
 				"see",
 				"db/seeds.rb"
@@ -1395,14 +1933,6 @@
 			[
 				"spsupauthz",
 				"spec/support/authorization_helpers.rb"
-			],
-			[
-				"rout",
-				"config/routes.rb"
-			],
-			[
-				"route",
-				"config/routes.rb"
 			],
 			[
 				"adminp",
@@ -1477,24 +2007,12 @@
 				"spec/integration/creating_projects_spec.rb"
 			],
 			[
-				"editing",
-				"spec/integration/editing_tickets_spec.rb"
-			],
-			[
-				"",
-				"spec/integration/creating_tickets_spec.rb"
-			],
-			[
 				"edit",
 				"spec/integration/editing_tickets_spec.rb"
 			],
 			[
 				"amus",
 				"app/models/user.rb"
-			],
-			[
-				"gem",
-				"Gemfile"
 			],
 			[
 				"sicretic",
@@ -1539,10 +2057,6 @@
 			[
 				"deletingt",
 				"spec/integration/deleting_tickets_spec.rb"
-			],
-			[
-				"del",
-				"spec/integration/deleting_projects_spec.rb"
 			],
 			[
 				"editingt",
@@ -1683,202 +2197,6 @@
 			[
 				"sigi",
 				"spec/integration/signing_in_spec.rb"
-			],
-			[
-				"deletic",
-				"spec/integration/deleting_tickets_spec.rb"
-			],
-			[
-				"userf",
-				"spec/support/factories/user_factory.rb"
-			],
-			[
-				"shower",
-				"app/views/tickets/show.html.erb"
-			],
-			[
-				"ticketsshow",
-				"app/views/tickets/show.html.erb"
-			],
-			[
-				"adduser",
-				"db/migrate/20130514222700_add_user_id_to_tickets.rb"
-			],
-			[
-				"ticketr",
-				"app/models/ticket.rb"
-			],
-			[
-				"tickets",
-				"app/controllers/tickets_controller.rb"
-			],
-			[
-				"show",
-				"app/views/tickets/show.html.erb"
-			],
-			[
-				"creatingt",
-				"spec/integration/creating_tickets_spec.rb"
-			],
-			[
-				"layou",
-				"app/views/layouts/application.html.erb"
-			],
-			[
-				"sig",
-				"spec/integration/signing_up_spec.rb"
-			],
-			[
-				"speche",
-				"spec/spec_helper.rb"
-			],
-			[
-				"add",
-				"db/migrate/20130514205525_add_confirmable_fields_to_users.rb"
-			],
-			[
-				"ge",
-				"Gemfile.lock"
-			],
-			[
-				"user",
-				"app/models/user.rb"
-			],
-			[
-				"layout",
-				"app/views/layouts/application.html.erb"
-			],
-			[
-				"proje",
-				"app/models/project.rb"
-			],
-			[
-				"g",
-				"Gemfile"
-			],
-			[
-				"devise",
-				"config/initializers/devise.rb"
-			],
-			[
-				"configinitde",
-				"config/initializers/devise.rb"
-			],
-			[
-				"configtest",
-				"config/environments/test.rb"
-			],
-			[
-				"configdev",
-				"config/environments/development.rb"
-			],
-			[
-				"spech",
-				"spec/spec_helper.rb"
-			],
-			[
-				"index",
-				"app/views/projects/index.html.erb"
-			],
-			[
-				"creat",
-				"spec/integration/creating_tickets_spec.rb"
-			],
-			[
-				"_f",
-				"app/views/tickets/_form.html.erb"
-			],
-			[
-				"new",
-				"app/views/tickets/new.html.erb"
-			],
-			[
-				"projr",
-				"app/models/project.rb"
-			],
-			[
-				"viewp",
-				"spec/integration/viewing_projects_spec.rb"
-			],
-			[
-				"tickr",
-				"app/models/ticket.rb"
-			],
-			[
-				"p",
-				"app/models/project.rb"
-			],
-			[
-				"procon",
-				"app/controllers/projects_controller.rb"
-			],
-			[
-				"showerb",
-				"app/views/projects/show.html.erb"
-			],
-			[
-				"controllproj",
-				"spec/controllers/projects_controller_spec.rb"
-			],
-			[
-				"configprod",
-				"config/environments/production.rb"
-			],
-			[
-				"viewsshow",
-				"app/views/projects/show.html.erb"
-			],
-			[
-				"new.",
-				"app/views/projects/new.html.erb"
-			],
-			[
-				"project",
-				"app/controllers/projects_controller.rb"
-			],
-			[
-				"app/vpn",
-				"app/views/projects/new.html.erb"
-			],
-			[
-				"appmodp",
-				"app/models/project.rb"
-			],
-			[
-				"confrou",
-				"config/routes.rb"
-			],
-			[
-				"r",
-				"bin/rspec"
-			],
-			[
-				"rspec",
-				"bin/rspec"
-			],
-			[
-				"viewslay",
-				"app/views/layouts/application.html.erb"
-			],
-			[
-				"configa",
-				"config/application.rb"
-			],
-			[
-				"edi",
-				"app/views/purchases/edit.html.erb"
-			],
-			[
-				"configrout",
-				"config/routes.rb"
-			],
-			[
-				"pu",
-				"app/models/purchase.rb"
-			],
-			[
-				"formhtml",
-				"app/views/purchases/_form.html.erb"
 			]
 		],
 		"width": 0.0
@@ -1890,7 +2208,7 @@
 		[
 			[
 				"",
-				"/home/lbs/.config/sublime-text-2/Packages/Default/linkblog.sublime-project"
+				"/home/lbs/.config/sublime-text-2/Packages/Markdown Preview/business.sublime-project"
 			]
 		],
 		"width": 380.0
