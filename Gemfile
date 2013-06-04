@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 
 gem 'dynamic_form', '1.1.4'
+gem 'devise', '2.1.0'
+gem 'cancan', '1.6.7'
+gem 'paperclip', '2.7.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -40,7 +43,7 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 group :test, :development do
-	gem 'rspec-rails', '~> 2.11'
+  gem 'rspec-rails', '~> 2.11'
   gem 'pry-rails'
   gem 'pry-doc'
   gem 'pry-debugger'
@@ -48,12 +51,11 @@ group :test, :development do
 end
 
 group :test do
-	gem 'capybara', '1.1.2'
-	gem 'factory_girl', '2.6.4'
+  gem 'capybara', '1.1.2'
+  gem 'factory_girl', '2.6.4'
   gem 'simplecov', :require => false 
   gem 'email_spec', '1.2.1'
+  gem 'database_cleaner', '0.7.2'
+  gem 'selenium-webdriver'
 end
 
-gem 'devise', '2.1.0'
-gem 'cancan', '1.6.7'
-gem 'paperclip', '2.7.0'
