@@ -10,7 +10,6 @@ gem 'paperclip', '2.7.0'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
 
 
 # Gems used only for assets and not required
@@ -42,12 +41,18 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
+group :production do
+  gem 'pg'
+end
+
+
 group :test, :development do
   gem 'rspec-rails', '~> 2.11'
   gem 'pry-rails'
   gem 'pry-doc'
   gem 'pry-debugger'
   gem 'launchy'
+  gem 'sqlite3'
 end
 
 group :test do
