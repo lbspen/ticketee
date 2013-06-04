@@ -16,3 +16,5 @@
 
 /coverage/assets
 /coverage/*.json
+
+/public/system
