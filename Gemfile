@@ -6,6 +6,7 @@ gem 'dynamic_form', '1.1.4'
 gem 'devise', '2.1.0'
 gem 'cancan', '1.6.7'
 gem 'paperclip', '2.7.0'
+gem 'pg'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -33,7 +34,7 @@ gem 'jquery-rails'
 # gem 'jbuilder'
 
 # Use unicorn as the app server, 
-# gem 'unicorn'
+gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'
@@ -41,9 +42,6 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
-group :production do
-  gem 'pg'
-end
 
 
 group :test, :development do
@@ -52,7 +50,6 @@ group :test, :development do
   gem 'pry-doc'
   gem 'pry-debugger'
   gem 'launchy'
-  gem 'sqlite3'
 end
 
 group :test do

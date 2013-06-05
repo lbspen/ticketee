@@ -18,3 +18,4 @@
 /coverage/*.json
 
 /public/system
+.env
