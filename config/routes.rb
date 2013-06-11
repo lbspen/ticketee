@@ -11,11 +11,15 @@ Ticketee::Application.routes.draw do
       :to => 'admin/permissions#update',
       :as => :update_user_permissions
 
-  devise_for :users, :controllers => { :registrations => "registrations" }
+  devise_for :users, :controllers => { 
+      :registrations => "registrations",
+      :omniauth_callbacks => "omniauth_callbacks" }
 
   get '/awaiting_confirmation',
       :to => "users#confirmation",
       :as => "confirm_user"
+
+  match 'auth/:provider/callback', :to => 'devise/sessions#index'
 
   root :to => "projects#index"
 

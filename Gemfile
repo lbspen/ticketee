@@ -8,6 +8,8 @@ gem 'cancan', '1.6.7'
 gem 'paperclip', '2.7.0'
 gem 'pg'
 gem 'newrelic_rpm'
+gem 'omniauth-facebook'
+gem 'better_errors'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
